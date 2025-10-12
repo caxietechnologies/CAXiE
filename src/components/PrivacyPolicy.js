@@ -5,7 +5,7 @@ const PrivacyPolicy = () => (
     <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
     <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">1. Introduction</h2>
-    <p className="mb-4">This Privacy Policy explains how your information is collected, used, and protected when you visit this personal portfolio website ("Site").</p>
+    <p className="mb-4">This Privacy Policy explains how your information is collected, used, and protected when you visit the CAXiE Technologies website ("Site").</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">2. Information Collected</h2>
     <p className="mb-4">This Site may collect non-personal information such as browser type, device, and usage statistics. Personal information (such as your name or email) is only collected if you voluntarily provide it via the contact form.</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">3. Use of Information</h2>

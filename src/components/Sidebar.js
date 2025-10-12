@@ -1,4 +1,4 @@
-// Sidebar.js - Responsive sidebar navigation for the portfolio
+// Sidebar.js - Responsive sidebar navigation for CAXiE Technologies
 // Handles navigation, scroll spy, collapse/expand, social links, and advanced scroll-hide/floating icon behavior
 
 import React, { useState, useEffect, useRef } from 'react';

@@ -1,4 +1,4 @@
-// AIChatbot.js - Floating AI Assistant Chatbot for the portfolio
+// AIChatbot.js - Floating AI Assistant Chatbot for CAXiE Technologies
 // Features: floating button, chat window, simple Q&A logic, modern UI
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -9,7 +9,7 @@ const defaultMessages = [
 
 const exampleAnswers = {
   'services': 'CAXiE offers cybersecurity, ICT infrastructure, data & BI, web/branding, and training. See the Services section for details!',
-  'projects': 'You can view CAXie Tech\'s projects in the Projects section. He has built a portfolio, e-commerce store, and more.',
+  'projects': 'You can view CAXie Tech\'s projects in the Projects section. We have delivered portfolio sites, e-commerce platforms, and more.',
   'contact': 'You can contact us using the form in the Contact section, or via LinkedIn and GitHub links.',
   //'certifications': 'CAXiE has certifications in IT, networking, and analytics. See the Certifications section for more.',
   'about': 'CAXiE Technologies is an IT Consultant, Network & Systems Engineer, and more. See the About section for more info about us and quick facts, from the Founder\'s desk.',

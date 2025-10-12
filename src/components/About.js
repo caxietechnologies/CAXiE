@@ -1,4 +1,4 @@
-// About.js - About section for the portfolio
+// About.js - About section for CAXiE Technologies
 // This section displays a profile image with orbiting tech icons, a bio, quick facts, a motto, and a resume download button.
 
 import React from 'react';

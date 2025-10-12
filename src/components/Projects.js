@@ -1,4 +1,4 @@
-// Projects.js - Projects/portfolio section
+// Projects.js - Projects section
 // Displays a list or grid of project cards
 
 import React, { useState, useEffect } from 'react';

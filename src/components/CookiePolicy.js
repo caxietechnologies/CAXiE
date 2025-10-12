@@ -5,7 +5,7 @@ const CookiePolicy = () => (
     <h1 className="text-3xl font-bold mb-6">Cookie Policy</h1>
     <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">1. Introduction</h2>
-    <p className="mb-4">This Cookie Policy explains how cookies are used on this personal portfolio website ("Site").</p>
+    <p className="mb-4">This Cookie Policy explains how cookies are used on the CAXiE Technologies website ("Site").</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">2. What Are Cookies</h2>
     <p className="mb-4">Cookies are small text files stored on your device by your browser. They help websites remember information about your visit.</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">3. How Cookies Are Used</h2>

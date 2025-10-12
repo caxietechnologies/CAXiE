@@ -5,7 +5,7 @@ const TermsOfUse = () => (
     <h1 className="text-3xl font-bold mb-6">Terms of Use</h1>
     <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">1. Introduction</h2>
-    <p className="mb-4">Welcome to this personal portfolio website ("Site"). By accessing or using this Site, you agree to comply with and be bound by these Terms of Use. If you do not agree to these terms, please do not use the Site.</p>
+    <p className="mb-4">Welcome to the CAXiE Technologies website ("Site"). By accessing or using this Site, you agree to comply with and be bound by these Terms of Use. If you do not agree to these terms, please do not use the Site.</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">2. Acceptance of Terms</h2>
     <p className="mb-4">By accessing this Site, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use and all applicable laws and regulations.</p>
     <h2 className="text-xl font-semibold mt-6 mb-2">3. User Responsibilities</h2>
