@@ -25,9 +25,10 @@ const Services = () => {
         <svg className="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 20h8M12 18v2"/></svg>
       ),
       services: [
-        'Network design and deployment',
+        'Network instsllation, design and deployment',
         'Systems setup and maintenance',
-        'Cloud and on‑prem integration',
+        'Cloud integration',
+        'Security and Support',
       ],
     },
     {
@@ -42,13 +43,14 @@ const Services = () => {
       ],
     },
     {
-      title: 'Web, Brand & Training',
+      title: 'Web, Brand & Marketing',
       icon: (
         <svg className="w-7 h-7 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
       ),
       services: [
         'Web development & support',
         'Branding and design',
+        'SEO, Site Verification and Profiling',
         'Media support & Social media management',
         'Bootcamps, seminars & upskilling',
       ],

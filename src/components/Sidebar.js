@@ -119,7 +119,7 @@ const Sidebar = ({ onCollapse, onVisibilityChange }) => {
       }
 
   // Scroll spy logic
-      const sections = ['hero', 'about', 'services', 'projects', 'certifications', 'blog', 'contact'];
+      const sections = ['hero', 'about', 'services', 'projects', 'certifications', 'blog', 'contact', 'footer'];
       const scrollPosition = window.scrollY + 100;
       for (const section of sections) {
         const element = document.getElementById(section);

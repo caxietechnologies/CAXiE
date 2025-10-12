@@ -4,16 +4,16 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const defaultMessages = [
-  { sender: 'bot', text: 'Hi! I\'m your AI Assistant. Ask me anything about Charles or this portfolio.' },
+  { sender: 'bot', text: 'Hi! I\'m caxie your AI Assistant. Ask me anything about CAXiE Tech.' },
 ];
 
 const exampleAnswers = {
   'services': 'CAXiE offers cybersecurity, ICT infrastructure, data & BI, web/branding, and training. See the Services section for details!',
-  'projects': 'You can view Charles\'s projects in the Projects section. He has built a portfolio, e-commerce store, and more.',
-  'contact': 'You can contact Charles using the form in the Contact section, or via LinkedIn and GitHub links.',
-  'certifications': 'Charles has certifications in IT, networking, and analytics. See the Certifications section for more.',
-  'about': 'Charles is an IT Consultant, Network & Systems Engineer, and more. See the About section for his bio and quick facts.',
-  'blog': 'The Blog section features posts about tech, networking, and portfolio building.',
+  'projects': 'You can view CAXie Tech\'s projects in the Projects section. He has built a portfolio, e-commerce store, and more.',
+  'contact': 'You can contact us using the form in the Contact section, or via LinkedIn and GitHub links.',
+  //'certifications': 'CAXiE has certifications in IT, networking, and analytics. See the Certifications section for more.',
+  'about': 'CAXiE Technologies is an IT Consultant, Network & Systems Engineer, and more. See the About section for more info about us and quick facts, from the Founder\'s desk.',
+  'blog': 'The Blog section features posts about tech, networking, cyber security and threats, defects of technology and other technological advancements.',
 };
 
 function getBotReply(input) {
