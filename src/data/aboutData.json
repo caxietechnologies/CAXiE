@@ -2,7 +2,7 @@
   "profileImage": "/founder.jpg",
   "bio": "CAXiE delivers integrated ICT and digital solutions focused on growth, security, and efficiency. We cover cybersecurity and digital identity, infrastructure setup and support, data and business intelligence, web development, branding and design, and professional skills training.\n\nWe also handle vendor management and tech procurement, and run awareness programs such as bootcamps and seminars. With a cybersecurity-first approach, proactive 24/7 support, and scalable delivery, we help clients operate confidently and achieve measurable impact.",
   "quickFacts": [
-    { "icon": "location", "label": "Nigeria (Based in Abuja)" },
+    { "icon": "location", "label": "Nigeria" },
     { "icon": "clock", "label": "9am - 5pm" }    
   ],
   "motto": "To prove strength one uses knowledge to destroy his enemies, but a great man, a wise man uses knowledge to create wealth and make impact that lives for generations."
