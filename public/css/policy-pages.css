@@ -1,0 +1,16 @@
+/* Specific styles for policy pages */
+@import url('./base.css');
+@import url('./layout.css');
+@import url('./typography.css');
+@import url('./components.css');
+
+/* Policy page specific overrides */
+.policy-page .logo {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+}
+
+.policy-page .glass-card {
+  max-width: 700px;
+}

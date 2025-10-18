@@ -1,0 +1,35 @@
+/* Layout styles for policy pages */
+.policy-container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--secondary-purple) 0%, var(--dark-purple) 60%, #000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  box-shadow: 0 8px 32px 0 var(--shadow-purple);
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  padding: 2.5rem 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem;
+}
+
+/* Contact form layout */
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.form-wrapper {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

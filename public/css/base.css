@@ -1,0 +1,32 @@
+/* Base styles and variables */
+:root {
+  --primary-purple: #7c3aed;
+  --secondary-purple: #4c1d95;
+  --dark-purple: #1e1b4b;
+  --text-dark: #312e81;
+  --text-light: #6b7280;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --shadow-purple: rgba(31, 38, 135, 0.18);
+  --shadow-logo: rgba(80, 0, 200, 0.10);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+a {
+  color: var(--primary-purple);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
