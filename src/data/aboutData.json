@@ -1,6 +1,12 @@
 {
   "profileImage": "/founder.jpg",
-  "bio": "CAXiE delivers integrated ICT and digital solutions focused on growth, security, and efficiency. We cover cybersecurity and digital identity, infrastructure setup and support, data and business intelligence, web development, branding and design, and professional skills training.\n\nWe also handle vendor management and tech procurement, and run awareness programs such as bootcamps and seminars. With a cybersecurity-first approach, proactive 24/7 support, and scalable delivery, we help clients operate confidently and achieve measurable impact.",
+  "bio": "CAXiE Technologies Limited is a forward-thinking technology company delivering innovative ICT, cybersecurity, and digital transformation solutions that empower organizations to thrive in an increasingly connected world. We help businesses, institutions, and entrepreneurs leverage technology to improve operational efficiency, strengthen security, enhance customer experiences, and accelerate sustainable growth.
+
+Our expertise spans cybersecurity and digital identity management, IT infrastructure deployment and support, cloud and enterprise solutions, data analytics and business intelligence, software and web development, branding and digital design, as well as professional technology training and capacity development.
+
+Beyond implementation, we provide strategic technology consulting, vendor management, technology procurement, and end-to-end project support, ensuring our clients have access to the right solutions, tools, and partnerships to achieve their goals. Through industry-focused bootcamps, workshops, seminars, and awareness programs, we are also committed to building digital skills and fostering innovation within communities and organizations.
+
+Driven by a cybersecurity-first philosophy, proactive support services, and scalable solution delivery, CAXiE Technologies combines technical expertise with business insight to help clients navigate digital challenges, unlock new opportunities, and achieve measurable, long-term impact.",
   "quickFacts": [
     { "icon": "location", "label": "Nigeria" },
     { "icon": "clock", "label": "9am - 5pm" }    
