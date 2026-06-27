@@ -1,6 +1,9 @@
 import React from 'react';
 
-const VIDEO_URL = "https://ubylrjabxpanqacvbhpc.supabase.co/storage/v1/object/public/preloader//Turquoise%20and%20Monochrome%20Photo%20Heading%20Website%20Facebook%20Cover.mp4";
+const supabaseUrl = process.env.REACT_APP_SUPABASE_URL || process.env.VITE_SUPABASE_URL || '';
+const VIDEO_URL = supabaseUrl
+  ? `${supabaseUrl}/storage/v1/object/public/preloader/Turquoise%20and%20Monochrome%20Photo%20Heading%20Website%20Facebook%20Cover.mp4`
+  : '';
 
 const Preloader = () => (
   <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
