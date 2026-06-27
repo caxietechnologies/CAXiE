@@ -1,7 +1,12 @@
 import { createClient } from '@supabase/supabase-js';
 
-const url = process.env.REACT_APP_SUPABASE_URL || process.env.SUPABASE_URL || '';
-const key = process.env.REACT_APP_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY || '';
+const url = process.env.REACT_APP_SUPABASE_URL || process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL || '';
+const key = process.env.REACT_APP_SUPABASE_ANON_KEY
+  || process.env.REACT_APP_SUPABASE_PUBLISHABLE_KEY
+  || process.env.VITE_SUPABASE_PUBLISHABLE_KEY
+  || process.env.VITE_SUPABASE_ANON_KEY
+  || process.env.SUPABASE_ANON_KEY
+  || '';
 
 const looksValidUrl = typeof url === 'string' && /^https?:\/\//.test(url) && !/your_supabase_url_here/i.test(url);
 const looksValidKey = typeof key === 'string' && key.length > 20 && !/your_supabase_anon_key_here/i.test(key);
@@ -43,7 +48,7 @@ let supabase;
 
 if (!looksValidUrl || !looksValidKey) {
   // eslint-disable-next-line no-console
-  console.warn('[supabase] Missing/invalid configuration. Set REACT_APP_SUPABASE_URL and REACT_APP_SUPABASE_ANON_KEY in a local .env file to connect to Supabase.');
+  console.warn('[supabase] Missing/invalid configuration. Set REACT_APP_SUPABASE_URL/REACT_APP_SUPABASE_ANON_KEY or VITE_SUPABASE_URL/VITE_SUPABASE_PUBLISHABLE_KEY in your environment to connect to Supabase.');
   supabase = createMockClient();
 } else {
   supabase = createClient(url, key, { auth: { persistSession: false } });

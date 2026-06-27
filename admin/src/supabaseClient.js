@@ -1,15 +1,20 @@
 // src/supabaseClient.js
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.REACT_APP_SUPABASE_URL || process.env.SUPABASE_URL || '';
-const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY || '';
+const supabaseUrl = process.env.REACT_APP_SUPABASE_URL || process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL || '';
+const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY
+  || process.env.REACT_APP_SUPABASE_PUBLISHABLE_KEY
+  || process.env.VITE_SUPABASE_PUBLISHABLE_KEY
+  || process.env.VITE_SUPABASE_ANON_KEY
+  || process.env.SUPABASE_ANON_KEY
+  || '';
 
 const looksValidUrl = typeof supabaseUrl === 'string' && /^https?:\/\//.test(supabaseUrl) && !/your_supabase_url_here/i.test(supabaseUrl);
 const looksValidKey = typeof supabaseAnonKey === 'string' && supabaseAnonKey.length > 20 && !/your_supabase_anon_key_here/i.test(supabaseAnonKey);
 
 if (!looksValidUrl || !looksValidKey) {
   // eslint-disable-next-line no-console
-  console.warn('[admin/supabase] Missing/invalid configuration. Add REACT_APP_SUPABASE_URL and REACT_APP_SUPABASE_ANON_KEY to your environment to connect to Supabase.');
+  console.warn('[admin/supabase] Missing/invalid configuration. Add REACT_APP_SUPABASE_URL/REACT_APP_SUPABASE_ANON_KEY or VITE_SUPABASE_URL/VITE_SUPABASE_PUBLISHABLE_KEY to your environment to connect to Supabase.');
 }
 
 export const supabase = looksValidUrl && looksValidKey
